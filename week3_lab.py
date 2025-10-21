@@ -7,6 +7,9 @@ for price in cost :
     total_cost= total_cost + price
 print(f"Total cost is: {total_cost}")
 
-
+for col in range(3): # this is a loop createing column by column
+    for row in range (5): # this is a nested loop creating each row
+        print("*", end=" ")
+    print()
 
     
