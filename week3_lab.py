@@ -12,4 +12,8 @@ for col in range(3): # this is a loop createing column by column
         print("*", end=" ")
     print()
 
-    
+
+for col in range (5):
+    for row in range (col):
+        print ("*", end=" ")
+    print() 
