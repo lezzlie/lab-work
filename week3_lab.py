@@ -13,7 +13,26 @@ for col in range(3): # this is a loop createing column by column
     print()
 
 
-for col in range (5):
-    for row in range (col):
+for col in range (5): # creates each column
+    for row in range (col): # creates each row depending on which column it is intrated into
         print ("*", end=" ")
-    print() 
+    print()
+
+choice = None 
+while choice != "q":
+    print(" 1. Add")
+    print(" 2. Subtract")
+    print("q. Quit")
+    choice = input("Choose an option: ")
+    if choice == "1":
+        number1 = int(input("Enter first number: "))
+        number2 = int(input("Enter second number: "))
+        print(f"The sum is: {number1 + number2}")
+    elif choice == "2":
+        number1 = int(input("Enter first number: "))
+        number2 = int(input("Enter second number: "))
+        print(f"The difference is: {number1 - number2}")
+    elif choice == "q":
+        print("Goodbye!")
+
+
