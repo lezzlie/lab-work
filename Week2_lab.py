@@ -8,15 +8,15 @@ print(f"{temp_celsius} degrees celsius is equal to {temp_Fahrenheit} degrees fah
 
 
 
-string =  "hello"
+string =  "hello" #initialising different data types
 integer = 5
 float=3.5
 boolean = True
-print(f"{string} is a data type called a string, ")
+print(f"{string} is a data type called a string, ") #prints the data type of the variable and tells you what it is
 print(f"{integer} is a data type called an integer, ")
 print(f"{float} is a data type called a float, ")
 print(f"{boolean} is a data type called a boolean. ")
-print(type(string))
+print(type(string)) #uses the type function to print the data type of each variable
 print(type(integer))
 print(type(float))
 print(type(boolean))

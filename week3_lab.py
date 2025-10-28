@@ -18,21 +18,21 @@ for col in range (5): # creates each column
         print ("*", end=" ")
     print()
 
-choice = None 
-while choice != "q":
+choice = None   #creates an epty variable
+while choice != "q":  #creates a while loop that will continue until the user enters q
     print(" 1. Add")
     print(" 2. Subtract")
     print("q. Quit")
-    choice = input("Choose an option: ")
+    choice = input("Choose an option: ") #asks the user to enter a choice
     if choice == "1":
-        number1 = int(input("Enter first number: "))
+        number1 = int(input("Enter first number: ")) 
         number2 = int(input("Enter second number: "))
-        print(f"The sum is: {number1 + number2}")
+        print(f"The sum is: {number1 + number2}") #prints the sum of the two numbers
     elif choice == "2":
         number1 = int(input("Enter first number: "))
         number2 = int(input("Enter second number: "))
         print(f"The difference is: {number1 - number2}")
-    elif choice == "q":
-        print("Goodbye!")
+    elif choice == "q": #if the user enters q, the loop will end
+        print("Goodbye!") #prints goodbye message
 
 
