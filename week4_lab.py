@@ -22,6 +22,6 @@ f_temp = celsius_to_farenheit(c_temp)
 print(f"{c_temp}C is equal to {f_temp}F ")
 
 my_variable = "I am global"
-test_scope()
-print(my_variable)
+test_scope() # calles the function and demonstraits that the variable being printed is comming from inside the function
+print(my_variable) # prints the global variable outside the function
 
